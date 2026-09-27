@@ -11,7 +11,7 @@ seoDescription: "A simple, budget-friendly skincare routine sorted by skin type 
 products:
   - id: cetaphil-face-wash
     name: "Cetaphil Gentle Skin Hydrating Face Wash"
-    image: "/img/products/beauty-placeholder.jpg"
+    image: "/img/products/cetaphil-face-wash.jpg"
     blurb: "A fragrance-gentle cleanser with niacinamide and vitamin B5 that won't strip your face while you're half asleep at the sink."
     bestFor: "Dry, normal, or sensitive skin."
     skipIf: "Your skin is oily or breakout-prone — go for the salicylic acid wash instead."
@@ -19,7 +19,7 @@ products:
     url: "https://link.amazon/B0b0DFJnt"
   - id: minimalist-salicylic-wash
     name: "Minimalist 2% Salicylic Acid Face Wash"
-    image: "/img/products/beauty-placeholder.jpg"
+    image: "/img/products/minimalist-salicylic-wash.jpg"
     blurb: "Salicylic acid and LHA to actually get into pores and manage oil, instead of just moving grease around your face."
     bestFor: "Oily or acne-prone skin."
     skipIf: "Your skin is already dry or sensitive — this can be too drying to use daily."
@@ -27,7 +27,7 @@ products:
     url: "https://link.amazon/B0cwCkUsF"
   - id: nivea-body-milk
     name: "NIVEA Nourishing Body Milk"
-    image: "/img/products/beauty-placeholder.jpg"
+    image: "/img/products/nivea-body-milk.jpg"
     blurb: "A thicker, almond-oil-and-hyaluronic-acid lotion for when your skin looks like a cracked phone screen by winter."
     bestFor: "Very dry body skin that needs real moisture, not a light mist of it."
     skipIf: "You want something lighter for daily wear — try the Vaseline one instead."
@@ -35,7 +35,7 @@ products:
     url: "https://link.amazon/B0ieEh50p"
   - id: vaseline-gluta-hya
     name: "Vaseline Gluta-Hya Dewy Radiance Lotion"
-    image: "/img/products/beauty-placeholder.jpg"
+    image: "/img/products/vaseline-gluta-hya.jpg"
     blurb: "A lighter, glow-chasing lotion with glutathione and niacinamide that doesn't leave a sticky film behind."
     bestFor: "Normal-to-dry skin, or anyone who wants glow over heavy moisture."
     skipIf: "Your skin is very dry — it won't be rich enough on its own."
@@ -51,7 +51,7 @@ products:
     url: "https://link.amazon/B0dDNBqi8"
   - id: dot-key-sunscreen
     name: "Dot & Key Vitamin C + E Super Bright Sunscreen SPF 50+"
-    image: "/img/products/beauty-placeholder.jpg"
+    image: "/img/products/dot-key-sunscreen.jpg"
     blurb: "Same SPF 50+ protection, with Vitamin C and E folded in to help with dullness and dark spots over time."
     bestFor: "All skin types, especially if dullness or tanning is your main complaint."
     skipIf: "You're not into a slightly more active, brightening-focused formula."
@@ -59,7 +59,7 @@ products:
     url: "https://link.amazon/B0enk8bKx"
   - id: minimalist-vitamin-c
     name: "Minimalist 10% Advanced Vitamin C Serum"
-    image: "/img/products/beauty-placeholder.jpg"
+    image: "/img/products/minimalist-vitamin-c.jpg"
     blurb: "A stable 10% Vitamin C formula aimed at dullness, uneven tone, and general 'why does my face look tired' energy."
     bestFor: "Normal or combination skin wanting a brightening step — completely optional."
     skipIf: "You're already using an active-heavy routine, or your skin is easily irritated."
@@ -67,7 +67,7 @@ products:
     url: "https://link.amazon/B0934IDCw"
   - id: hyphen-serum
     name: "Hyphen 18% Brightening + 20% Collagen Face Serum"
-    image: "/img/products/beauty-placeholder.jpg"
+    image: "/img/products/hyphen-serum.jpg"
     blurb: "Mandarin extract, niacinamide, PGA, and bakuchiol in one bottle — built to brighten and hydrate at the same time, which is why it leans toward dry skin specifically."
     bestFor: "Dry or dull skin wanting brightening and hydration in a single step."
     skipIf: "Your skin is oily — this is a richer formula than you need."
@@ -75,12 +75,12 @@ products:
     url: "https://link.amazon/B0cCBzfLv"
   - id: cerave-moisturizer
     name: "CeraVe Moisturising Cream"
-    image: "/img/products/beauty-placeholder.jpg"
+    image: "/img/products/cerave-moisturizer.jpg"
     blurb: "Three ceramides and hyaluronic acid doing the actual job of holding your skin barrier together."
     bestFor: "Dry to very dry skin that needs a real moisturizer, not a runny lotion."
     skipIf: "Your skin is oily — this will feel heavy."
     priceRange: "$"
-    url: "https://link.amazon/B01g1BCtm
+    url: "https://link.amazon/B01g1BCtm"
 ---
 
 You do not need a 10-step routine. You need four things done in the right order, using products that actually match your skin — and that's it. Here's the lazy version, sorted by skin type, using nine budget-friendly products.

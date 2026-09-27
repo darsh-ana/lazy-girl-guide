@@ -6,7 +6,7 @@ export function getAllPosts(): Post[] {
   return [...allPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 }
 
-export function getFeaturedPost(): Post {
+export function getFeaturedPost(): Post | undefined {
   const posts = getAllPosts()
   return posts.find((post) => post.featured) ?? posts[0]
 }

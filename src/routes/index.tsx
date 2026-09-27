@@ -15,7 +15,7 @@ export const Route = createFileRoute('/')({
 
 function Home() {
   const featured = getFeaturedPost()
-  const latest = getLatestPosts(featured.slug, 6)
+  const latest = getLatestPosts(featured?.slug, 6)
   const categories = getCategories()
 
   return (
@@ -52,7 +52,13 @@ function Home() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
-        <FeaturedArticleCard post={featured} />
+        {featured ? (
+          <FeaturedArticleCard post={featured} />
+        ) : (
+          <p className="rounded-2xl border border-dashed border-line py-16 text-center text-ink-soft">
+            No guides published yet.
+          </p>
+        )}
       </section>
 
       <section className="border-y border-line bg-paper/60">
