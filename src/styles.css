@@ -1,0 +1,92 @@
+@import "tailwindcss" source("../");
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-display: 'Fraunces', 'Georgia', serif;
+  --font-body: 'Work Sans', 'system-ui', sans-serif;
+
+  --color-cream: #faf5ed;
+  --color-cream-dark: #f2ead9;
+  --color-paper: #fffdf9;
+  --color-ink: #2b241d;
+  --color-ink-soft: #5c5347;
+  --color-clay: #bc6b52;
+  --color-clay-dark: #a1543e;
+  --color-clay-light: #f1ded6;
+  --color-sage: #75816b;
+  --color-line: #e7ddcd;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+code {
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.prose-article {
+  color: var(--color-ink);
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+.prose-article p {
+  margin: 1.4em 0;
+}
+
+.prose-article h2 {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 2.2em 0 0.7em;
+  color: var(--color-ink);
+}
+
+.prose-article h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1.8em 0 0.6em;
+}
+
+.prose-article ul,
+.prose-article ol {
+  margin: 1.2em 0;
+  padding-left: 1.4em;
+}
+
+.prose-article li {
+  margin: 0.4em 0;
+}
+
+.prose-article li::marker {
+  color: var(--color-clay);
+}
+
+.prose-article a {
+  color: var(--color-clay-dark);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+}
+
+.prose-article strong {
+  color: var(--color-ink);
+}
+
+.prose-article blockquote {
+  border-left: 3px solid var(--color-clay);
+  margin: 1.6em 0;
+  padding: 0.2em 0 0.2em 1.2em;
+  font-style: italic;
+  color: var(--color-ink-soft);
+}
