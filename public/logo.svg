@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Background Square -->
+
+  <!-- Terracotta Circle -->
+  <circle cx="250" cy="250" r="170" fill="#B85D46" />
+
+  <!-- Serif Text "LG" -->
+    <text x="250" y="250"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="140"
+      font-weight="bold"
+      fill="#FFFFFF"
+      text-anchor="middle"
+      dominant-baseline="central"
+        letter-spacing="5">LG</text>
+</svg>

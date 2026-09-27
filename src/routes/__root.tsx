@@ -16,7 +16,11 @@ export const Route = createRootRoute({
       ...seo({ title: SITE_NAME, description: SITE_DESCRIPTION }),
     ],
     links: [
-      { rel: 'icon', href: `${import.meta.env.BASE_URL}favicon.ico` },
+      {
+        rel: 'icon',
+        href: `${import.meta.env.BASE_URL}logo.svg`,
+        type: 'image/svg+xml',
+      },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossOrigin: 'anonymous' },
     ],
