@@ -2,7 +2,11 @@ import { SITE_NAME, SITE_URL, DEFAULT_SHARE_IMAGE } from './site'
 
 function absoluteUrl(pathOrUrl: string) {
   if (/^https?:\/\//.test(pathOrUrl)) return pathOrUrl
-  if (!SITE_URL) return pathOrUrl
+  if (!SITE_URL) {
+    return import.meta.env.MODE === 'github-pages'
+      ? `${import.meta.env.BASE_URL}${pathOrUrl.replace(/^\//, '')}`
+      : pathOrUrl
+  }
   return `${SITE_URL}${pathOrUrl}`
 }
 
