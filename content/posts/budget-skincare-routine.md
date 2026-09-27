@@ -43,7 +43,7 @@ products:
     url: "https://link.amazon/B05CMzFjH"
   - id: derma-co-sunscreen
     name: "The Derma Co 1% Hyaluronic Sunscreen Aqua Gel SPF 50"
-    image: "/img/products/beauty-placeholder.jpg"
+    image: "/img/products/derma-co-sunscreen.jpg"
     blurb: "A lightweight, hydrating gel sunscreen with SPF 50 PA++++ and no white cast — the kind you'll actually reapply."
     bestFor: "Anyone who wants a hydrating, no-fuss daily sunscreen."
     skipIf: "You specifically want a brightening/glow angle — see the Dot & Key one."
